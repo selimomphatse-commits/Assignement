@@ -1,0 +1,26 @@
+.sales-container {
+  display: flex;
+}
+
+.products-panel {
+  flex: 2;
+  padding: 10px;
+}
+
+.cart-panel {
+  flex: 1;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.quantity-input {
+  width: 50px;
+}
